@@ -1,7 +1,16 @@
 from testhelper import test
 
 def calculate(input1, operator, input2):
-    pass #Replace with your code
+    if operator == "+":
+        result == input1 + input2
+    elif operator == "-":
+        result = input1 - input2
+    elif operator == "*":
+        result = input1 * input2
+    else:
+        result = input1 / input2
+
+
 
 
 

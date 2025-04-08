@@ -2,14 +2,14 @@ from testhelper import test
 
 def calculate(input1, operator, input2):
     if operator == "+":
-        result == input1 + input2
+        result = int(input1) + int(input2)
     elif operator == "-":
         result = input1 - input2
-    elif operator == "*":
+    elif operator == "*" :
         result = input1 * input2
     else:
         result = input1 / input2
-
+    return(result)
 
 
 

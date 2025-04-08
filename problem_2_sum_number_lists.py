@@ -1,7 +1,18 @@
 from testhelper import test
 
 def sum_number_lists(list1, list2):
-    pass # Replace with your code
+    list3 = []
+    num = 0
+    if len(list1) == len(list2):
+        for i in range(len(list1)):
+            listot = int(list1[num]) + int(list2[num])
+            list3.append(listot)
+            num = num + 1
+        print(list3)
+    else:
+        print("List sizes are not equal")
+    return(list3)
+
 
 
 ### TESTS - Run the code that calls the function to check it works.
